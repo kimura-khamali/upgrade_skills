@@ -35,11 +35,12 @@
   font-weight: bold;
 }
 .make {
-  color: red;
-  text-decoration: none;
+    color: blue;
+    text-decoration: none; 
 }
+
 .btn {
-  margin-left: 20px;
+  margin-left: 5px;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
   border-bottom-left-radius: 40px;
@@ -47,20 +48,20 @@
 }
 
 #btn {
-  background-color: red;
+  background-color: red;  
   color: white;
 }
 .upgrade1 {
-  color: blue;
-  text-decoration: none;
+    color: blue;
+    text-decoration: none; 
 }
-.super {
-  color: red;
-  text-decoration: none;
+.super{
+    color: red;
+    text-decoration: none;
 }
 
 .color {
-  border-top-right-radius: 40px;
+    border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
   border-bottom-left-radius: 40px;
   border-top-left-radius: 40px;
@@ -75,7 +76,6 @@
 .img {
   width: 90%;
   height: 400px;
-  /* object-fit: cover; */
 }
 
 .type {
@@ -103,6 +103,9 @@ footer {
   }
 
   .navbar ul {
+    list-style-type: none;
+    padding: 0;
+
     flex-wrap: wrap;
   }
 
@@ -145,6 +148,8 @@ footer {
   }
 
   .navbar ul {
+    list-style-type: none;
+    padding: 0;
     margin: 20px;
   }
 
@@ -152,6 +157,7 @@ footer {
     margin-left: 5px;
   }
 
+  
   .type {
     width: auto;
     height: 40px;
@@ -175,12 +181,17 @@ footer {
   }
 
   .navbar ul {
+    list-style-type: none;
+    padding: 0;
     margin: 50px;
   }
 
   .navbar li {
     margin-left: 5px;
   }
+
+
+  
 
   .type {
     width: auto;
